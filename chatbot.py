@@ -17,3 +17,13 @@ def scary_movie_bot(user_response):
 print("Welcome to the scary movie recovery system")   
 print("Was the horror movie you watch supernatural or a thriller?")  
 
+user_response = ""
+while True:    
+  user_response = input("Was the horror movie you watch supernatural or a thriller?")
+  
+  if user_response == 'exit':
+    break
+
+  
+  bot_response = scary_movie_bot(user_response) 
+  print(bot_response) 
