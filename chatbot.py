@@ -19,7 +19,7 @@ print("Was the horror movie you watched supernatural or a thriller? ")     #the 
 
 user_response = ""
 while True:     #boolean while loop, program will restart and run again unless the user inputs exit
-  user_response = input("Was the horror movie you watch supernatural or a thriller?")
+  user_response = input("Was the horror movie you watched supernatural or a thriller?")
   
   if user_response == 'exit':
     break
