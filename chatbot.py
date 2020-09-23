@@ -14,3 +14,6 @@ def scary_movie_bot(user_response):
 
 
 
+print("Welcome to the scary movie recovery system")   
+print("Was the horror movie you watch supernatural or a thriller?")  
+
