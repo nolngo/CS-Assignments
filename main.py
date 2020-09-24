@@ -15,11 +15,10 @@ def get_bot_response(user_response):     #this is the bot's function, basically 
 
 
 print("Welcome to the scary movie recovery system")     #the welcoming statement upon opening the program
-print("Was the horror movie you watched supernatural or a thriller? ")     #the prompt that requests an input
 
 user_response = ""
 while True:     #boolean while loop, program will restart and run again unless the user inputs exit
-  user_response = input("Was the horror movie you watched supernatural or a thriller?")
+  user_response = input("Was the horror movie you watched supernatural or a thriller? ")
   
   if user_response == 'exit':
     break
